@@ -4,6 +4,8 @@
 // if Node were single threaded...
 // Thread 1 ( crypto.pdkdf2 (1s) + crypto.pdk (1s) = 2s total)
 
+//ab -c 50 -n 500 localhost:3000/fast
+
 
 
 // Questions
